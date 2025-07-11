@@ -1,138 +1,125 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sebastian Lizares Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#002855',
+            secondary: '#33415C',
+            lighterblue: '#0353A4',
+            grey: '#979DAC',
+
+          }
+        }
+      }
+    }
+  </script> 
     <style>
-        
         *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-    
-        }
-        ul{
-            list-style-type:none;
-        }
-        li{
-            display: inline;
-            float:left;
-        }
-        li a{
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 15xp;
-            text-decoration: none;
-        }
-        .nav{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: gray;
-        }
-        .left{
-            color: white;
-            padding: 15px 15px;
-            text-decoration: none;
-            margin:15px;
-            float: left;
-            display: inline;
-        }
-        .introduction{
-            color: white;
-            background-color: navy;
-            padding: 25px;
-            border:5px;
-            border-style: ridge;
-            border-color:white;
-            margin: auto;
-            text-align: center;
-        }  
-        .schools{
-            padding: 25px;
-
-            
-        }
-        .work{
-            padding: 25px;
-        }
-        .extracurricular{
-            padding: 25px;
-        }
-        .interests{
-            padding:25px;
-        }
+    font-family: 'Libre Baskerville', serif !important;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
     </style>
-</head>
-<body>
-    <ul class="nav">
-        <li class="left"><a href="home">Home</a></li>
-        <li classs="left"><a href="contact">Contact</a></li>
-        <li class="left"><a href="about">About</a></li>
-    </ul>
-    <main id="main" class="introduction" >
-        <h1>Sebastian Lizares</h1>
-        <p> Computer Engineering student at <span class="vtech"> Virginia Tech</span></p>
-        <p>Contact Information: <a style="color: white;" href="mailto:bastilizares@gmail.com" target="_blank" ->Email</a>
 
-            
+</head>
+<body>     
+    <ul class="nav text-white text-center text-[15px] no-underline border-[2.5px] border-[#000000] bg-primary flex - row justify-center w-full gap-[20px] gird - cols - 3" >
+        <li class="left hover:text-[17px] hover:text-white"><a href="home">Home</a>
+        <svg class="w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+</svg>
+
+        </li>
+        <li classs="left hover:text-[17px] hover:text-white"><a href="about">About</a></li>
+        <li class="left hover:text-[17px] hover:text-white" ><a href="contact">Contact</a>
+        <svg class="w-4"xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+</svg>
+
+        </li>
+    </ul>
+    <main id="main" class="introduction text-center text-2xl p-[15px] bg-secondary padding-[10px] text-white" >
+        <h1>Sebastian Lizares</h1>
+        <p> Computer Engineering Student at <span class="vtech"> Virginia Tech</span></p>
+        <p>Contact Information: <a style="color: black;" href="mailto:bastilizares@gmail.com" target="_blank" ->Email</a>, Linkedin <span><svg class="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        <svg class="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+        <svg class="w-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+        </span>
+           
     </main> 
 
     <section id="education" class="schools">
-        
-        <div class="college">
-            <h2>Education</h2> 
+        <br>
+        <div class="college text-[20px] text-center">
+            <h2>Education:</h2> 
             <div>
-            <p><strong style="color: rgb(134, 31, 65);">Virginia Tech,</strong> Bachelor of Science - BS, Computer Engineering 
+            <p><a href="https://www.vt.edu/" class="text-2xl text-[#862041] hover:text-[25px]"> Virginia Tech</a>, Bachelor of Science - BS, Computer Engineering 
             <br>August 2024 - May 2028</p>
         </div>
-        <div id="high school">
+        <div id="high_school">
             <br>
-            <p><strong style="color: green;">Western Reserve Academy,</strong> High School Diploma 
+            <p><a href="https://www.wra.net/" class="text-2xl text-[#355E3B] hover:text-[25px]">Western Reserve Academy</a>, High School Diploma 
             <br>August 2022 - May 2024</p>
         </div>
         </div>
         
             
     </section>
-    <section id="work experience" class="work">
-        <h2>Work Experience</h2>
-        <div id="white space">
-            <p><strong> White Space Mind and Wellness Studio,</strong> Summer Intern, Digitized and organized three years of client information, improving data accessibility and efficiency
-            <br>March 2018 - April 2018</p>
+    <section id="work_experience" class="work text-center">
+        <br>
+        <h2 class="big text-[19px]">Work Experience:</h2>
+        <div id="white_space" class="space ">
+            
+            <p class="title text-[19px]">White Space Mind and Wellness Studio,</p>
+            <p>Summer Intern, Digitized and organized three years of client information, improving data accessibility and efficiency</p>
+            <p></p>March 2018 - April 2018</p>
         </div>
         <div id="dining">
             <br>
-            <p><strong style="color: rgb(134, 31, 65);">Perry Place, Virginia Tech Dining Service,</strong> Student Wage Employee, strict safety and professional standards
-            <br>August 2024 - Present</p>
+            <p class="perry text-[19px] text-[#862041] ">Perry Place, Virginia Tech Dining Service</p>
+            <p> Student Wage Employee, strict safety and professional standards</p>
+            <p>August 2024 - Present</p>
         </div>
 
         <div id="secuna">
             <br>
-            <p><strong style="color: rgb(59, 59, 234);">Secuna,</strong> Summer Intern, Working for cybersecurity company focusin on front end web design
-            <br>July 2025- August 2026</p>
+            <p><a href="https://secuna.io/" class="text-2xl text-lighterblue hover:text-[25px]"> Secuna</a>
+            <p>Summer Intern, Working for cybersecurity company focusin on front end web design </p>
+            <p>July 2025- August 2025</p>
         </div>    
     </section>
 
-    <section class="extracurricular">
-        <h2>Extracurricular Activities</h2>
+    <section class="extracurricular text-center">
+        <br>
+        <h2 class="extra text-[20px]">Extracurricular Activities:</h2>
         <div id="football">
-            <p><strong style="color: blue;">Philippine U-19 National Football Team,</strong> Represented the Philippines in the 2022 Asian Football Federation U-19 Tournament in Surabaya, Indonesia.
-            <br>June 2024 - July 2024</p>
+
+            <p class="ph text-lighterblue text-[19px]">Philippine U-19 National Football Team,</p>
+            <p>Represented the Philippines in the 2022 Asian Football Federation U-19 Tournament in Surabaya, Indonesia.</p>
+            <p>June 2024 - July 2024</p>
         </div>
         <br>
         <div id="captain">
-            <p><strong style="color: green;">Western Reserve Academy Soccer Team Captain,</strong> Recruited to a highly competitive international team; demonstrated leadership as team captain
-            <br>August 2022 - May 2024</p>
+            <p class="cap text-[#355E3B] text-[19px]"> Western Reserve Academy Soccer Team Captain </p>
+            <p> Recruited to a highly competitive international team; demonstrated leadership as team captain</p>
+            <p>August 2022 - May 2024</p>
         </div>
     </section>
 
-    <section id="skills" class="interests">
+    <section id="skills" class="interests text-center">
+        <br>
         <h2>Skills and Interests</h2>
         
         <ul>            
