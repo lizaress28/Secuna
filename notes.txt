@@ -1,0 +1,122 @@
+<section id="work_experience" class="work text-center">
+        <br>
+        <h2 class="big text-[19px]">Work Experience:</h2>
+        <div id="white_space" class="space ">
+            
+            <p class="title text-[19px]">White Space Mind and Wellness Studio,</p>
+            <p>Summer Intern, Digitized and organized three years of client information, improving data accessibility and efficiency</p>
+            <p></p>March 2018 - April 2018</p>
+        </div>
+        <div id="dining">
+            <br>
+            <p class="perry text-[19px] text-[#862041] ">Perry Place, Virginia Tech Dining Service</p>
+            <p> Student Wage Employee, strict safety and professional standards</p>
+            <p>August 2024 - Present</p>
+        </div>
+
+        <div id="secuna">
+            <br>
+            <p><a href="https://secuna.io/" class="text-2xl text-aqua hover:text-[25px]"> Secuna</a>
+            <p>Summer Intern, Working for cybersecurity company focusin on front end web design </p>
+            <p>July 2025- August 2025</p>
+        </div>    
+    </section>
+
+    <section class="extracurricular text-center">
+        <br>
+        <h2 class="extra text-[20px]">Extracurricular Activities:</h2>
+        <div id="football">
+
+            <p class="ph text-lighterblue text-[19px]">Philippine U-19 National Football Team,</p>
+            <p>Represented the Philippines in the 2022 Asian Football Federation U-19 Tournament in Surabaya, Indonesia.</p>
+            <p>June 2024 - July 2024</p>
+        </div>
+        <br>
+        <div id="captain">
+            <p class="cap text-[#355E3B] text-[19px]"> Western Reserve Academy Soccer Team Captain </p>
+            <p> Recruited to a highly competitive international team; demonstrated leadership as team captain</p>
+            <p>August 2022 - May 2024</p>
+        </div>
+    </section>
+
+    <section id="skills" class="interests text-center">
+        <br>
+        <h2>Skills and Interests</h2>
+        
+        <ul>            
+            <li>Proficient in Programming Languages: Python and C++ and MS Suite</li>
+            <br>
+            <li>Interests in Web, Mobile and Game Development.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <br>
+        <div></div>
+        <div>&copy;Copyright 2025</div>
+        <div></div>
+    </footer>
+    <script>
+        
+    </script>
+</body>
+</html>
+
+<section id="work_experience" class="work text-center">
+        <br>
+        <h2 class="big text-[19px]">Work Experience:</h2>
+        <div id="white_space" class="space ">
+            
+            <p class="title text-[19px]">White Space Mind and Wellness Studio,</p>
+            <p>Summer Intern, Digitized and organized three years of client information, improving data accessibility and efficiency</p>
+            <p></p>March 2018 - April 2018</p>
+        </div>
+        <div id="dining">
+            <br>
+            <p class="perry text-[19px] text-[#862041] ">Perry Place, Virginia Tech Dining Service</p>
+            <p> Student Wage Employee, strict safety and professional standards</p>
+            <p>August 2024 - Present</p>
+        </div>
+
+        <div id="secuna">
+            <br>
+            <p><a href="https://secuna.io/" class="text-2xl text-aqua hover:text-[25px]"> Secuna</a>
+            <p>Summer Intern, Working for cybersecurity company focusin on front end web design </p>
+            <p>July 2025- August 2025</p>
+        </div>    
+    </section>
+
+    <section class="extracurricular text-center">
+        <br>
+        <h2 class="extra text-[20px]">Extracurricular Activities:</h2>
+        <div id="football">
+
+            <p class="ph text-lighterblue text-[19px]">Philippine U-19 National Football Team,</p>
+            <p>Represented the Philippines in the 2022 Asian Football Federation U-19 Tournament in Surabaya, Indonesia.</p>
+            <p>June 2024 - July 2024</p>
+        </div>
+        <br>
+        <div id="captain">
+            <p class="cap text-[#355E3B] text-[19px]"> Western Reserve Academy Soccer Team Captain </p>
+            <p> Recruited to a highly competitive international team; demonstrated leadership as team captain</p>
+            <p>August 2022 - May 2024</p>
+        </div>
+    </section>
+
+    <section id="skills" class="interests text-center">
+        <br>
+        <h2>Skills and Interests</h2>
+        
+        <ul>            
+            <li>Proficient in Programming Languages: Python and C++ and MS Suite</li>
+            <br>
+            <li>Interests in Web, Mobile and Game Development.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <br>
+        <div></div>
+        <div>&copy;Copyright 2025</div>
+        <div></div>
+    </footer>

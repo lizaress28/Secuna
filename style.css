@@ -2,5 +2,8 @@
 *{
     font-family: 'Libre Baskerville', serif !important;
 }
-
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
